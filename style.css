@@ -1,7 +1,7 @@
 .flex-container{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: grey;
     align-items: center;
     justify-content: center;
     
@@ -9,7 +9,7 @@
 }
 
 .flex-container > div {
-    background-color: black;
+    background-color: grey;
     flex: 50%;
     margin: 15px;
     text-align: center;
@@ -33,14 +33,14 @@
     .flex-container{
         display: flex;
         flex-direction: column;
-        background-color: aqua;
+        background-color: grey;
         align-items: center;
         justify-content: center;
     
     }
 
     .flex-container > div {
-        background-color: black;
+        background-color: grey;
         flex: 50%;
         margin: 15px;
         text-align: center;
